@@ -1,0 +1,183 @@
+body{
+  font-family: Georgia;
+    color: white;
+}
+
+#logo-container{
+  background-color: #FFD700;
+  letter-spacing: 6px;
+  height: 150px;
+}
+
+#logo-container h1{
+  font-weight: normal!important;
+  font-size: 40px;
+}
+
+#logo-container * {
+  margin-top: 0;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.vcenter-parent{
+  display:table;
+}
+.vcenter {
+  display: table-cell!important;
+  vertical-align: middle;
+}
+
+
+#nav-container {
+  height: 50px;
+  background-color: #008080;
+}
+
+#nav-container * {
+  height: 100%
+}
+#nav-container li{
+  color: white;
+  padding: 0 15px;
+  -webkit-transition: color 2s, background-color 2s; /* Safari */
+  transition: color 0.6s, background-color 0.6s;
+}
+
+#nav-container li:hover{
+
+  color: #000000;
+  background-color: white;
+}
+
+#nav-container li a{
+  font-size: 22px;
+  color: inherit;
+    text-decoration: none;
+}
+
+/*#image-container {
+  height: calc(100vh - 50px - 150px - 30px);
+  background-image:url(../img/yoyo1.jpg);
+  background-position: center;
+  background-size: cover;
+}*/
+/*.video{
+    z-index: -30;
+}*/
+
+
+
+video#bkd{
+    background:url(../img/yoyo1.jpg) no-repeat;
+    background-size: cover;
+    width:100%;
+    -webkit-filter: brightness(0.3);
+    filter: brightness(0.3);
+
+}
+
+
+/* DEMO-SPECIFIC STYLES */
+
+ h1.mahesh {
+  border-right: .15em solid black;
+  margin: 0 auto;
+  color: #fff;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  /*background:"../shubbha/bananavideo.mp4";*/
+  animation:
+    typing 4.5s steps( 30, end),
+    blink-caret .60s step-end infinite;
+
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
+
+
+#search-container {
+  color: #FFD700;
+  height: 30px;
+  font-size: 16px;
+}
+
+#search-container span span {
+  padding: 5px;
+
+}
+.right {
+    position: absolute;
+    margin-left: calc(100% - 200px);
+}
+
+.video-container {
+    text-align: center;
+}
+
+.content-container {
+  font-size: 20px;
+  color: #000;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content-container1 {
+  font-size: 18px;
+  color: #000;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content-container p img {
+  max-height: 300px;
+}
+
+table td {
+  padding: 25px;
+}
+
+table td .gridOBJ {
+  width: 350px;
+  height: 350px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+table td .gridOBJ.india {
+  background-image: url('../img/indiaN.png');
+}
+
+table td .gridOBJ.india:hover {
+  background-image: url('../img/indiaS.png');
+}
+
+table td .gridOBJ.laos {
+  background-image: url('../img/laosN.png');
+}
+
+table td .gridOBJ.laos:hover {
+  background-image: url('../img/laosS.png');
+}
