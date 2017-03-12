@@ -181,3 +181,14 @@ table td .gridOBJ.laos {
 table td .gridOBJ.laos:hover {
   background-image: url('../img/LaosS.png');
 }
+
+img.rightVanaspati {
+    float: right;
+    max-height: 300px;
+}
+
+
+img.leftVanaspati {
+    float: left;
+    max-height: 300px;
+}
