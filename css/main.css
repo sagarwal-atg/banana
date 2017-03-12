@@ -1,5 +1,4 @@
 body{
-  font-family: Georgia;
     color: white;
 }
 
@@ -182,13 +181,11 @@ table td .gridOBJ.laos:hover {
   background-image: url('../img/LaosS.png');
 }
 
-img.rightVanaspati {
-    float: right;
-    max-height: 300px;
+
+table.tinkTable {
+    width: 100%;
 }
 
-
-img.leftVanaspati {
-    float: left;
-    max-height: 300px;
+table.tinkTable img {
+    width: 400px;
 }
