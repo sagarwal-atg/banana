@@ -190,6 +190,10 @@ table.tinkTable img {
     width: 400px;
 }
 
-table.tinkTable1 {s
-    border: 1px solid black;
+table.tinkTable1 {
+    border-collapse: collapse;
+}
+
+table.tinkTable1, th{
+   border: 1px solid black;
 }
