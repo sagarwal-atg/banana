@@ -69,20 +69,23 @@ body{
   /*text-decoration: none;*/
 }
 
-/*#image-container {
-  height: calc(100vh - 50px - 150px - 30px);
-  background-image:url(../img/yoyo1.jpg);
+#image-container {
+  height:100vh ;
+  width: 100vh;
+  /*calc(100vh - 50px - 150px - 30px)*/
+  background-image:url('/Users/Somi/Desktop/banana/yoyo1.jpg');
   background-position: center;
   background-size: cover;
-}*/
+}
 /*.video{
     z-index: -30;
-}*/
+}
+      */
 
 
+#bkd{
 
-video#bkd{
-    /*background:url(../img/yoyo1.jpg) no-repeat;*/
+    background:url(../yoyo1.jpg) no-repeat;
     background-size: cover;
     width:100%;
     -webkit-filter: brightness(0.8);
